@@ -1,0 +1,29 @@
+.p-id {
+    color: rgb(4, 0, 0);
+    text-align: center;
+}
+.yoga{
+    text-align: center;
+    size: 60px;
+}
+
+.bg {
+    background-image: url('../Image/wallpaperflare.com_wallpaper.jpg'); 
+    background-size: 5000px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100pc;
+     
+    
+  }
+  
+  
+  .yoga {
+    color: #000404; 
+    size: 120px;;
+  }
+  
+  .p-id {
+    color: #555; /* Set your desired paragraph text color */
+  }
+  
