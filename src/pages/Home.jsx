@@ -20,8 +20,10 @@ function Home() {
           In addition, yoga can also help to reduce stress levels and promote feelings of wellbeing.
            If you are looking for a way to improve your overall health and wellbeing, then yoga may be the perfect option for you. 
            Yoga is not only an excellent way to exercise the body, but it also has numerous benefits for the mind and spirit.
-
-If you have never tried yoga before, I highly recommend giving it a try. You might be surprised at how much you enjoy it and how quickly you start to see results. Yoga is an ancient practice with many benefits for both the body and mind. It can help to improve flexibility, strength, and balance while also promoting relaxation and stress relief. Whether you are new to yoga or have been practicing for years, there is always something to gain from including yoga in your life. So why not give it a try?
+If you have never tried yoga before, I highly recommend giving it a try.
+ You might be surprised at how much you enjoy it and how quickly you start to see results. Yoga is an ancient practice with many benefits for both the body and mind. It can help to improve flexibility, strength, and balance while also promoting relaxation and stress relief.
+  Whether you are new to yoga or have been practicing for years, there is always something to gain from including yoga in your life.
+   So why not give it a try.
         </p>
         </div>
         </>

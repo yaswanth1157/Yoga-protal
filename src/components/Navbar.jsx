@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom';
 import { CssBaseline } from '@mui/material';
 
-const pages = ['Home', 'About'];
+const pages = ['Home', 'About','Login'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

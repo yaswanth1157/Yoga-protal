@@ -9,21 +9,25 @@
 
 .bg {
     background-image: url('../Image/wallpaperflare.com_wallpaper.jpg'); 
-    background-size: 5000px; 
+    background-size: 8000px; 
     background-position: center; 
     background-repeat: no-repeat;
     height: 100pc;
+    
      
     
   }
   
   
   .yoga {
-    color: #000404; 
-    size: 120px;;
+    color: #060506; 
+    size: 300px;;
+    padding: auto;
   }
   
   .p-id {
-    color: #555; /* Set your desired paragraph text color */
+    color: #000000; 
+    font-variant-position: center;
+    font-size: 20px;
   }
   

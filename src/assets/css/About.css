@@ -1,0 +1,27 @@
+
+
+body {
+    background-image: url('/Users/yaswanth/Desktop/Advanced-app/Yoga-Portal/src/assets/Image/wallpaperflare.com_wallpaper (1).jpg');  
+    background-size: 5000px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100pc;
+    
+  }
+  
+  
+  
+  .About {
+    color: #e0f4f5;
+    text-align: center;
+    size: 500px;;
+  }
+  
+  p {
+    color: #000000; 
+    font-variant-position: center;
+    font-size: 20px;
+  }
+  
+ 
+  
