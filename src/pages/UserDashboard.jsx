@@ -1,7 +1,8 @@
-// LandingPage.js
+
 
 import React from 'react';
 import '../assets/css/Card.css'
+import { Link } from 'react-router-dom';
 
 const UserDashboard = () => {
   return (
@@ -26,7 +27,7 @@ const UserDashboard = () => {
       </section>
       <section className="cta">
         <p>Embark on a journey to holistic well-being.</p>
-        <button>Get Started</button>
+        <Link to="/login"><button>Get Started</button></Link>
       </section>
       <footer>
         <p>&copy; 2024 Yoga Admission Portal</p>
