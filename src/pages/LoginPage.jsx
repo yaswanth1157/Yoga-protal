@@ -1,12 +1,15 @@
+import { useNavigate } from "react-router-dom";
 import "../assets/css/Login.css"
 import React, { useState } from 'react';
 
 const LoginPage = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate()
 
   const handleLogin = () => {
-
+    navigate('/home')
+    
     console.log('Login clicked. Implement authentication logic.');
   };
 
@@ -22,7 +25,7 @@ const LoginPage = () => {
           margin: '0 auto',
         }}
       >
-        <label>
+        <label style={{color:'white'}}>
           Username:
           <input
             type="text"
@@ -31,7 +34,7 @@ const LoginPage = () => {
             style={{ margin: '10px 0' }}
           />
         </label>
-        <label>
+        <label style={{color:'white'}}>
           Password:
           <input
             type="password"

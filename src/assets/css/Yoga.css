@@ -1,0 +1,46 @@
+
+
+body {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .yoga-trainer-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .trainer-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .trainer-item {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: transform 0.3s;
+  }
+  
+  .trainer-item:hover {
+    transform: scale(1.5); /* Change to the desired scale value */
+  }
+  
+  .trainer-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .trainer-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+  

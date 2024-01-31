@@ -6,7 +6,7 @@ function Home() {
         <h1 className="yoga">
             YOGA 
         </h1>
-        <p className="p-id"> 
+        <p className="p-id" style={{color:''}}> 
         Yoga is the ancient way to attain physical, mental, and spiritual practice.
          Primarily originating in India, the word 'yoga' is derived from Sanskrit, meaning to unite
         . This unity signifies the ultimate union of the body with consciousness and thus attaining .
