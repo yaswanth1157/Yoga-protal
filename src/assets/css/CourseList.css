@@ -1,56 +1,86 @@
-/* CourseList.css */
+.course-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
 
 .course-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  th, td {
-    border: 1px solid #ddd;
-    padding: 15px;
-    text-align: left;
-    color: black;
-  }
-  
-  th {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  tr {
-    transition: background-color 0.3s;
-  }
-  
-  tr:hover {
-    background-color: #201515;
-  }
-  
-  .selected {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  input[type="checkbox"] {
-    margin-right: 5px;
-  }
-  
-  .course-list-container {
-    text-align: center;
-  }
-  
-  .select-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .select-button:hover {
-    background-color: #0056b3;
-  }
-  
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.course-table th,
+.course-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.course-table th {
+  background-color: transparent;
+  text-align: left;
+}
+
+.course-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.go-button,
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.go-button:hover,
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.form-container {
+  margin-top: 20px;
+  /* border: 5px solid black; */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 22px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.success-message {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.success-message::before {
+  content: '\2714';
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.course-list-container label{
+    color:rgb(6, 6, 6)
+}
+.course-list-container form{
+  border: 3px solid black;
+}

@@ -17,9 +17,9 @@ const AdminLog = () => {
 
   return (
     <div className="admin-login-container">
-      <h2 style={{color:'white', textAlign:'center',fontSize:'20px'}}>Admin Login</h2>
+      <h2 style={{color:'black', textAlign:'center',fontSize:'20px'}}>Admin Login</h2>
       <form>
-        <label htmlFor="username" style={{color:'white', textAlign:'center',fontSize:'20px'}}>Username:</label>
+        <label htmlFor="username" style={{color:'black', textAlign:'center',fontSize:'20px'}}>Username:</label>
         <input
           type="text"
           id="username"
@@ -28,7 +28,7 @@ const AdminLog = () => {
           className="center-input"  
         />
 
-        <label htmlFor="password" style={{color:'white', textAlign:'center',fontSize:'20px'}}>Password:</label>
+        <label htmlFor="password" style={{color:'black', textAlign:'center',fontSize:'20px'}}>Password:</label>
         <input
           type="password"
           id="password"

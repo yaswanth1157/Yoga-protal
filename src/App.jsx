@@ -5,13 +5,14 @@ import About from "./pages/About"
 import LoginPage from "./pages/LoginPage"
 import NavBar from "./components/Navbar"
 import SignupPage from "./pages/SignUp"
-import Sidebar from "./components/SideBar"
 import UserDashboard from "./pages/UserDashboard"
 import ProfilePage from "./pages/ProfilePage"
  import AdminDashboard from "./pages/AdminDashboard"
  import AdminLog from "./pages/AdminLog"
  import YogaTrainer from "./pages/YogaTrainer"
 import CourseList from "./pages/CourseList"
+import Sidebar from "./components/Sidebar"
+import LogoutPage from "./pages/LogOut"
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
          <Route path="/adminlog" element={<AdminLog/>}/>
          <Route path="/yogatrainer" element={<YogaTrainer/>}/>
          <Route path="/courselist" element={<CourseList/>}/>
+         <Route path="/logout" element={<LogoutPage/>}/>
+         
+       
        
         </Routes>
         </Router>

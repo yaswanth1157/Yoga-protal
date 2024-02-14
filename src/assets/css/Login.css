@@ -1,50 +1,65 @@
-
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: center;
-    background: url('../Image/wlecom.jpg') no-repeat center center/cover; 
-  }
-  
-  .container {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  h2 {
-    color: black;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  
-  label {
-    margin: 10px 0;
-  }
-  
-  input {
-    padding: 8px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  button {
-    padding: 10px;
-    margin: 10px 0;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  background: url('../Image/wlecom.jpg') no-repeat center center/cover; 
+  /* Center and cover the background image */
+  background-attachment: fixed; /* Fixed background */
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #333; /* Darken the heading color for better readability */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px; /* Add some padding for better spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+label {
+  margin: 10px 0;
+  color: #333; /* Darken the label color for better readability */
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #030303; /* Add a light border */
+  border-radius: 5px; 
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  background-color: #007bff;
+  color: rgb(13, 13, 13);
+  border: none;
+  border-radius: 5px; 
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.error-message {
+  color: black; /* Change the color to black */
+}
+.login-p {
+  color: black; /* Change the color to black */
+}
+
+

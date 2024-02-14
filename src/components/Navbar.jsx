@@ -10,7 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
 import { CssBaseline } from '@mui/material';
 
-const pages = ['Home', 'About', 'Login', 'Signup','Profile', 'YogaTrainer','CourseList'];
+const pages = ['Home', 'About', 'Login', 'Signup','Profile', 'YogaTrainer','CourseList','LogOut'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

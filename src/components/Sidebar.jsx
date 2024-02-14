@@ -14,6 +14,7 @@ import ProfileIcon from '@mui/icons-material/AccountCircle';
 import ProfilePage from '../pages/ProfilePage';
 import YogaTrainer from '../pages/YogaTrainer';
 import CourseList from '../pages/CourseList';
+import LogoutPage from '../pages/LogOut';
 
 const Sidebar = ({ isOpen, onClose }) => {
   const menuItems = [
@@ -23,7 +24,8 @@ const Sidebar = ({ isOpen, onClose }) => {
     { text: 'Sign in', icon: <PersonIcon />, link: '/sign-in' },
     { text: 'ProfilePage', icon: <ProfileIcon />, link: '/profilepage' },
     { text: 'YogaTrainer', icon: <ProfileIcon />, link: '/yogatrainer' }, 
-    { text: 'CourseList', icon: <ProfileIcon />, link: '/courselink' },
+    // { text: 'CourseList', icon: <ProfileIcon />, link: '/yogatrainer' },
+    { text: 'LogOut', icon: <ProfileIcon />, link: '/logout' }, 
   ];
 
   return (

@@ -9,7 +9,19 @@ const AdminDashboard = () => {
     // Add more sample data as needed
   ]);
 
-  
+  const handleApprove = (id) => {
+    const updatedAdmissions = yogaAdmissions.map((admission) =>
+      admission.id === id ? { ...admission, status: 'Approved' } : admission
+    );
+    setYogaAdmissions(updatedAdmissions);
+  };
+
+  const handleReject = (id) => {
+    const updatedAdmissions = yogaAdmissions.map((admission) =>
+      admission.id === id ? { ...admission, status: 'Rejected' } : admission
+    );
+    setYogaAdmissions(updatedAdmissions);
+  };
 
   return (
     <div className="admin-dashboard-container">
